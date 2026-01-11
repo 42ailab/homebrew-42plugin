@@ -1,26 +1,26 @@
 class FortyTwoPlugin < Formula
   desc "AI 插件生态系统 CLI"
   homepage "https://42plugin.com"
-  version "0.2.11"
+  version "0.2.12"
   license "MIT"
   on_macos do
     on_arm do
-      url "https://github.com/42ailab/42plugin/releases/download/v0.2.11/42plugin-darwin-arm64.tar.gz"
-      sha256 "fc8d859486a5d25f7b9f6f6f31c6de47c12ee8a00a628ef2b157c644a66319dc"
+      url "https://github.com/42ailab/42plugin/releases/download/v0.2.12/42plugin-darwin-arm64.tar.gz"
+      sha256 "09a1d4dd4eef9baf3aaf0725f6e14c68ef2e6a4e7df358c0e75e8af6f3a39086"
     end
     on_intel do
-      url "https://github.com/42ailab/42plugin/releases/download/v0.2.11/42plugin-darwin-x64.tar.gz"
-      sha256 "d1cd9b77753866dd702fa7b05bad7ad847d7b7c2ebc05e111cac586b01771d52"
+      url "https://github.com/42ailab/42plugin/releases/download/v0.2.12/42plugin-darwin-x64.tar.gz"
+      sha256 "881faa10ae6a59514c9f0419aeefad1837530531eb7409dcc9a6ca705a8bfbdf"
     end
   end
   on_linux do
     on_arm do
-      url "https://github.com/42ailab/42plugin/releases/download/v0.2.11/42plugin-linux-arm64.tar.gz"
-      sha256 "81fc55e9394f1dc9daa0ccfc23a3a68b3fa4352fe263f0bb681211ec41e62d99"
+      url "https://github.com/42ailab/42plugin/releases/download/v0.2.12/42plugin-linux-arm64.tar.gz"
+      sha256 "b78301ba1aaf9b3a23e4fbf615cf09d5443f7b78d7c8ff925bd530514c69db03"
     end
     on_intel do
-      url "https://github.com/42ailab/42plugin/releases/download/v0.2.11/42plugin-linux-x64.tar.gz"
-      sha256 "6ea274b01f40d5587c7471f29b5544662586aa09dc626d2d7819048cf1d99947"
+      url "https://github.com/42ailab/42plugin/releases/download/v0.2.12/42plugin-linux-x64.tar.gz"
+      sha256 "7cd31fec2b1efed32ec016b9959c6d788dae0b081ee11d495c03c1c8eff99c4e"
     end
   end
   def install
